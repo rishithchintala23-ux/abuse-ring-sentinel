@@ -164,8 +164,11 @@ def generate_transactions(accounts, ring_lookup):
                 offset = timedelta(days=random.randint(0, 400))
 
             ts = signup + offset
-            amount = round(random.uniform(50, 500) if is_ring
-                            else random.uniform(50, 5000), 2)
+            # Amount drawn from the SAME distribution regardless of ring
+            # membership - transaction amount must not leak the label.
+            # The detector should rely on graph structure and timing, not
+            # a spending-amount shortcut.
+            amount = round(random.uniform(50, 5000), 2)
             txns.append({
                 "txn_id": f"txn_{uuid.uuid4().hex[:12]}",
                 "account_id": acct["account_id"],
