@@ -1,6 +1,6 @@
 ﻿# Abuse-Ring Sentinel
 
-**Track:** AI Risk Manager - Razorpay AI Buildathon
+**Track:** AI Risk Manager 
 
 Detects coordinated multi-account abuse (collusion rings) that individually-looking
 transactions and single-account fraud models miss.
