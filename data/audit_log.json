@@ -1,0 +1,4749 @@
+[
+  {
+    "account_id": "acct_e05cb67297",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.714251+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address",
+      "device"
+    ],
+    "signup_spread_hours": 33.7,
+    "txn_spread_hours": 1276.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_293202da41",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_f8dcef9182",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_fb902cc5b8",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_fea8e3befc",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address, device. All accounts in this cluster signed up within 33.7 hours of each other. Transactions were spread over 1276.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_a54436bf6a",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.714251+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 32.2,
+    "txn_spread_hours": 32.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7e0c5a6722",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_df961f00b1",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a50a8162fd",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7ee79c8288",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_680ac7192e",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_65726b76a2",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4b4b4d9729",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared payment card. All accounts in this cluster signed up within 32.2 hours of each other. Transactions across the cluster occurred within a 32.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_b28fd831d4",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.715251+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 42.5,
+    "txn_spread_hours": 1049.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_5c4802df1f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_740b8167f3",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_94086cef74",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ee4594aa9e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 42.5 hours of each other. Transactions were spread over 1049.6 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_35a8c8d29a",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.716251+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.8,
+    "txn_spread_hours": 836.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7502947d21",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d4dd9db472",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8840731e73",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a5a52b0d39",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9607c9e166",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_72e93b7d7a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 9.8 hours of each other. Transactions were spread over 836.1 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_f374d5903d",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.716251+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 4,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 10.1,
+    "txn_spread_hours": 12.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_89aa3a0b08",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ad3d2cc50e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_33a251e67d",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 4 total) via shared delivery address. All accounts in this cluster signed up within 10.1 hours of each other. Transactions across the cluster occurred within a 12.1-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_94086cef74",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.717251+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 42.5,
+    "txn_spread_hours": 1049.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_5c4802df1f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_740b8167f3",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ee4594aa9e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b28fd831d4",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 42.5 hours of each other. Transactions were spread over 1049.6 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_bd2590737a",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.718251+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 4.2,
+    "txn_spread_hours": 6.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_60a9f16147",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6b8d3320b7",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_8b3bd96e5d",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3958575244",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_42cc49edcf",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_fc9176a32c",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d379543c1a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device. All accounts in this cluster signed up within 4.2 hours of each other. Transactions across the cluster occurred within a 6.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_791e2f516f",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.718251+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 49.9,
+    "txn_spread_hours": 50.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_e6eacc3c02",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6bf9ca0c65",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_15f918a4a1",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_3613c20c43",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared device, payment card. All accounts in this cluster signed up within 49.9 hours of each other. Transactions across the cluster occurred within a 50.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_0f095a57d9",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.719250+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5168,
+    "cluster_size": 1,
+    "n_connected_accounts": 0,
+    "shared_attribute_types": [],
+    "signup_spread_hours": 0.0,
+    "txn_spread_hours": 312.0,
+    "connected_accounts_evidence": [],
+    "explanation": "No shared attributes found with other accounts.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_ee4594aa9e",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.719250+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 42.5,
+    "txn_spread_hours": 1049.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_5c4802df1f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_740b8167f3",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_94086cef74",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b28fd831d4",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 42.5 hours of each other. Transactions were spread over 1049.6 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_a2dbd4f27f",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.720613+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 39.9,
+    "txn_spread_hours": 41.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_1da3b320b7",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_062407b54f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_3c4f0f4963",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b56df18547",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_872a1e958e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_2b917ee737",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared delivery address. All accounts in this cluster signed up within 39.9 hours of each other. Transactions across the cluster occurred within a 41.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_f15636fbee",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.721613+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 38.2,
+    "txn_spread_hours": 38.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_183ed1ce47",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_63b9500316",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_87e1601c85",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_df42c89a6b",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_7c6a0e1c60",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6dd27c7337",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 38.2 hours of each other. Transactions across the cluster occurred within a 38.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_4b4b4d9729",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.721613+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 32.2,
+    "txn_spread_hours": 32.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7e0c5a6722",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_df961f00b1",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a50a8162fd",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7ee79c8288",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a54436bf6a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_680ac7192e",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_65726b76a2",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device, payment card. All accounts in this cluster signed up within 32.2 hours of each other. Transactions across the cluster occurred within a 32.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_680ac7192e",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.722612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 32.2,
+    "txn_spread_hours": 32.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7e0c5a6722",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_df961f00b1",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a50a8162fd",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7ee79c8288",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a54436bf6a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_65726b76a2",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4b4b4d9729",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared payment card. All accounts in this cluster signed up within 32.2 hours of each other. Transactions across the cluster occurred within a 32.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_1ca8ddec3a",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.722612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5684,
+    "cluster_size": 7,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 3.2,
+    "txn_spread_hours": 4.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_0e1033b9ea",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_4e01f870e6",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d8a999be83",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_f159246608",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 3.2 hours of each other. Transactions across the cluster occurred within a 4.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_c1c7343700",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.723612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 6,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 30.1,
+    "txn_spread_hours": 31.5,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_bf5d9d280c",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_b38b377dad",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_ef6e0fd672",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 6 total) via shared payment card. All accounts in this cluster signed up within 30.1 hours of each other. Transactions across the cluster occurred within a 31.5-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_d4dd9db472",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.724612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.8,
+    "txn_spread_hours": 836.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7502947d21",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8840731e73",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a5a52b0d39",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9607c9e166",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_35a8c8d29a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_72e93b7d7a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 9.8 hours of each other. Transactions were spread over 836.1 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_dce57026c7",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.724612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 6,
+    "n_connected_accounts": 5,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 60.4,
+    "txn_spread_hours": 976.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7f2fee431d",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_064bf235e9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_31439620cb",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2b675c202f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_1029ca0e61",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 5 other account(s) (cluster of 6 total) via shared payment card. All accounts in this cluster signed up within 60.4 hours of each other. Transactions were spread over 976.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_1da3b320b7",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.725612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 39.9,
+    "txn_spread_hours": 41.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_062407b54f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_3c4f0f4963",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b56df18547",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_872a1e958e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_2b917ee737",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_a2dbd4f27f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared delivery address. All accounts in this cluster signed up within 39.9 hours of each other. Transactions across the cluster occurred within a 41.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_fc9176a32c",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.725612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 4.2,
+    "txn_spread_hours": 6.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_60a9f16147",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6b8d3320b7",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8b3bd96e5d",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3958575244",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_42cc49edcf",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_bd2590737a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d379543c1a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device, payment card. All accounts in this cluster signed up within 4.2 hours of each other. Transactions across the cluster occurred within a 6.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_df42c89a6b",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.726612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 38.2,
+    "txn_spread_hours": 38.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_f15636fbee",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_183ed1ce47",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_63b9500316",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_87e1601c85",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_7c6a0e1c60",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6dd27c7337",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 38.2 hours of each other. Transactions across the cluster occurred within a 38.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_3613c20c43",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.726612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 49.9,
+    "txn_spread_hours": 50.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_e6eacc3c02",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_791e2f516f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_15f918a4a1",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 5 total) via shared payment card. All accounts in this cluster signed up within 49.9 hours of each other. Transactions across the cluster occurred within a 50.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_7ee79c8288",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.727613+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 32.2,
+    "txn_spread_hours": 32.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7e0c5a6722",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_df961f00b1",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a50a8162fd",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a54436bf6a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_680ac7192e",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_65726b76a2",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4b4b4d9729",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared payment card. All accounts in this cluster signed up within 32.2 hours of each other. Transactions across the cluster occurred within a 32.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_8b3bd96e5d",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.728612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 4.2,
+    "txn_spread_hours": 6.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_60a9f16147",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6b8d3320b7",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3958575244",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_42cc49edcf",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_fc9176a32c",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_bd2590737a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d379543c1a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device. All accounts in this cluster signed up within 4.2 hours of each other. Transactions across the cluster occurred within a 6.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_6b8d3320b7",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.728612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 4.2,
+    "txn_spread_hours": 6.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_60a9f16147",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8b3bd96e5d",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3958575244",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_42cc49edcf",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_fc9176a32c",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_bd2590737a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d379543c1a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device, payment card. All accounts in this cluster signed up within 4.2 hours of each other. Transactions across the cluster occurred within a 6.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_334815a2c6",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.729612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "delivery address",
+      "payment card"
+    ],
+    "signup_spread_hours": 11.3,
+    "txn_spread_hours": 13.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_cf83f16759",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_face58324d",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_42113e6391",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 5 total) via shared delivery address, payment card. All accounts in this cluster signed up within 11.3 hours of each other. Transactions across the cluster occurred within a 13.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_3c4f0f4963",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.729612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 39.9,
+    "txn_spread_hours": 41.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_1da3b320b7",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_062407b54f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b56df18547",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_872a1e958e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_2b917ee737",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_a2dbd4f27f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared delivery address. All accounts in this cluster signed up within 39.9 hours of each other. Transactions across the cluster occurred within a 41.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_7c6a0e1c60",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.730612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 38.2,
+    "txn_spread_hours": 38.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_f15636fbee",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_183ed1ce47",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_63b9500316",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_87e1601c85",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_df42c89a6b",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6dd27c7337",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 38.2 hours of each other. Transactions across the cluster occurred within a 38.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_f483bd90a3",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.731612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address",
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 29.6,
+    "txn_spread_hours": 31.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_262d1aff9c",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_157f78f4bc",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_28f8b5d72d",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_e35b866f20",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address, device, payment card. All accounts in this cluster signed up within 29.6 hours of each other. Transactions across the cluster occurred within a 31.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_fb902cc5b8",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.731612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 33.7,
+    "txn_spread_hours": 1276.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_f8dcef9182",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_293202da41",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_e05cb67297",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_fea8e3befc",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 33.7 hours of each other. Transactions were spread over 1276.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_446cce8f11",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.732612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5684,
+    "cluster_size": 7,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address",
+      "payment card"
+    ],
+    "signup_spread_hours": 3.2,
+    "txn_spread_hours": 4.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_0e1033b9ea",
+        "shared_attributes": [
+          "payment card",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_4e01f870e6",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d8a999be83",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_3577b5f09a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 7 total) via shared delivery address, payment card. All accounts in this cluster signed up within 3.2 hours of each other. Transactions across the cluster occurred within a 4.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_b56df18547",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.732612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 39.9,
+    "txn_spread_hours": 41.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_1da3b320b7",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_062407b54f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_3c4f0f4963",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_872a1e958e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_2b917ee737",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_a2dbd4f27f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared delivery address. All accounts in this cluster signed up within 39.9 hours of each other. Transactions across the cluster occurred within a 41.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_9607c9e166",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.733612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.8,
+    "txn_spread_hours": 836.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7502947d21",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d4dd9db472",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8840731e73",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a5a52b0d39",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_35a8c8d29a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_72e93b7d7a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 9.8 hours of each other. Transactions were spread over 836.1 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_e0ebdf1129",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.734612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 4,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.9,
+    "txn_spread_hours": 11.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_ff67ba4fdb",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d2861affd6",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_1de966d30b",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 4 total) via shared payment card. All accounts in this cluster signed up within 9.9 hours of each other. Transactions across the cluster occurred within a 11.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_face58324d",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.734612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 11.3,
+    "txn_spread_hours": 13.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_a062a375f7",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_cf83f16759",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_334815a2c6",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 5 total) via shared device, payment card. All accounts in this cluster signed up within 11.3 hours of each other. Transactions across the cluster occurred within a 13.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_872a1e958e",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.735613+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 39.9,
+    "txn_spread_hours": 41.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_1da3b320b7",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_062407b54f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_3c4f0f4963",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b56df18547",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_2b917ee737",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_a2dbd4f27f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared delivery address. All accounts in this cluster signed up within 39.9 hours of each other. Transactions across the cluster occurred within a 41.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_a062a375f7",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.735613+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 1,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 11.3,
+    "txn_spread_hours": 13.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_face58324d",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 1 other account(s) (cluster of 5 total) via shared device. All accounts in this cluster signed up within 11.3 hours of each other. Transactions across the cluster occurred within a 13.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_9a4f937e6f",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.736612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 25.8,
+    "txn_spread_hours": 27.9,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_6e821e4070",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dbdfe318ce",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6158962cf9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9c9fe28831",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2bb8c78823",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d6b8fe10d4",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device, payment card. All accounts in this cluster signed up within 25.8 hours of each other. Transactions across the cluster occurred within a 27.9-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_740b8167f3",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.737612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 42.5,
+    "txn_spread_hours": 1049.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_5c4802df1f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_94086cef74",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ee4594aa9e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b28fd831d4",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 42.5 hours of each other. Transactions were spread over 1049.6 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_42113e6391",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.737612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 1,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 11.3,
+    "txn_spread_hours": 13.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_334815a2c6",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 1 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 11.3 hours of each other. Transactions across the cluster occurred within a 13.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_262d1aff9c",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.738612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 29.6,
+    "txn_spread_hours": 31.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_157f78f4bc",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_f483bd90a3",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_28f8b5d72d",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_e35b866f20",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared device, payment card. All accounts in this cluster signed up within 29.6 hours of each other. Transactions across the cluster occurred within a 31.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_ee8c7265f5",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.738612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 6,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 30.1,
+    "txn_spread_hours": 31.5,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_19bcc310ed",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_bf5d9d280c",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b38b377dad",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 6 total) via shared delivery address. All accounts in this cluster signed up within 30.1 hours of each other. Transactions across the cluster occurred within a 31.5-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_f8dcef9182",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.739612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 33.7,
+    "txn_spread_hours": 1276.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_293202da41",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_e05cb67297",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_fb902cc5b8",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_fea8e3befc",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 33.7 hours of each other. Transactions were spread over 1276.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_6dd27c7337",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.740612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 38.2,
+    "txn_spread_hours": 38.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_f15636fbee",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_183ed1ce47",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_63b9500316",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_87e1601c85",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_df42c89a6b",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_7c6a0e1c60",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 38.2 hours of each other. Transactions across the cluster occurred within a 38.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_b38b377dad",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.740612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 6,
+    "n_connected_accounts": 5,
+    "shared_attribute_types": [
+      "delivery address",
+      "payment card"
+    ],
+    "signup_spread_hours": 30.1,
+    "txn_spread_hours": 31.5,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_bf5d9d280c",
+        "shared_attributes": [
+          "payment card",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_c1c7343700",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_ef6e0fd672",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_19bcc310ed",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ee8c7265f5",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 5 other account(s) (cluster of 6 total) via shared delivery address, payment card. All accounts in this cluster signed up within 30.1 hours of each other. Transactions across the cluster occurred within a 31.5-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_5c4802df1f",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.741612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 42.5,
+    "txn_spread_hours": 1049.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_740b8167f3",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_94086cef74",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ee4594aa9e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b28fd831d4",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 42.5 hours of each other. Transactions were spread over 1049.6 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_1de966d30b",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.741612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 4,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.9,
+    "txn_spread_hours": 11.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_ff67ba4fdb",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d2861affd6",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_e0ebdf1129",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 4 total) via shared payment card. All accounts in this cluster signed up within 9.9 hours of each other. Transactions across the cluster occurred within a 11.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_f159246608",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.742612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5684,
+    "cluster_size": 7,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 3.2,
+    "txn_spread_hours": 4.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_0e1033b9ea",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_4e01f870e6",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d8a999be83",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_1ca8ddec3a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 3.2 hours of each other. Transactions across the cluster occurred within a 4.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_d67aadccd3",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.743612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.6063,
+    "cluster_size": 1,
+    "n_connected_accounts": 0,
+    "shared_attribute_types": [],
+    "signup_spread_hours": 0.0,
+    "txn_spread_hours": 432.0,
+    "connected_accounts_evidence": [],
+    "explanation": "No shared attributes found with other accounts.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_bf5d9d280c",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.743612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 6,
+    "n_connected_accounts": 5,
+    "shared_attribute_types": [
+      "delivery address",
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 30.1,
+    "txn_spread_hours": 31.5,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_19bcc310ed",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_c1c7343700",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_b38b377dad",
+        "shared_attributes": [
+          "payment card",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ef6e0fd672",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_ee8c7265f5",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 5 other account(s) (cluster of 6 total) via shared delivery address, device, payment card. All accounts in this cluster signed up within 30.1 hours of each other. Transactions across the cluster occurred within a 31.5-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_7e0c5a6722",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.744612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 32.2,
+    "txn_spread_hours": 32.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_df961f00b1",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4b4b4d9729",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a50a8162fd",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7ee79c8288",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a54436bf6a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_680ac7192e",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_65726b76a2",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device, payment card. All accounts in this cluster signed up within 32.2 hours of each other. Transactions across the cluster occurred within a 32.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_9c9fe28831",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.744612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 25.8,
+    "txn_spread_hours": 27.9,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_6e821e4070",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6158962cf9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dbdfe318ce",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2bb8c78823",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d6b8fe10d4",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9a4f937e6f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 25.8 hours of each other. Transactions across the cluster occurred within a 27.9-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_42cc49edcf",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.745612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 4.2,
+    "txn_spread_hours": 6.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_60a9f16147",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6b8d3320b7",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_8b3bd96e5d",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3958575244",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_fc9176a32c",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_bd2590737a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d379543c1a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device. All accounts in this cluster signed up within 4.2 hours of each other. Transactions across the cluster occurred within a 6.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_6bf9ca0c65",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.745612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "delivery address",
+      "device"
+    ],
+    "signup_spread_hours": 49.9,
+    "txn_spread_hours": 50.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_e6eacc3c02",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_791e2f516f",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_15f918a4a1",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 5 total) via shared delivery address, device. All accounts in this cluster signed up within 49.9 hours of each other. Transactions across the cluster occurred within a 50.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_e6eacc3c02",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.746612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address",
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 49.9,
+    "txn_spread_hours": 50.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_791e2f516f",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6bf9ca0c65",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_15f918a4a1",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_3613c20c43",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address, device, payment card. All accounts in this cluster signed up within 49.9 hours of each other. Transactions across the cluster occurred within a 50.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_a50a8162fd",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.747612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 32.2,
+    "txn_spread_hours": 32.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7e0c5a6722",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_df961f00b1",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7ee79c8288",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a54436bf6a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_680ac7192e",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_65726b76a2",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4b4b4d9729",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared payment card. All accounts in this cluster signed up within 32.2 hours of each other. Transactions across the cluster occurred within a 32.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_2bb8c78823",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.747612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 25.8,
+    "txn_spread_hours": 27.9,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_6e821e4070",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6158962cf9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dbdfe318ce",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9c9fe28831",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d6b8fe10d4",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9a4f937e6f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 25.8 hours of each other. Transactions across the cluster occurred within a 27.9-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_1029ca0e61",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.748612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 6,
+    "n_connected_accounts": 5,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 60.4,
+    "txn_spread_hours": 976.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7f2fee431d",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_064bf235e9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_31439620cb",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dce57026c7",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2b675c202f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 5 other account(s) (cluster of 6 total) via shared payment card. All accounts in this cluster signed up within 60.4 hours of each other. Transactions were spread over 976.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_183ed1ce47",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.748612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 38.2,
+    "txn_spread_hours": 38.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_f15636fbee",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_63b9500316",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_87e1601c85",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_df42c89a6b",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_7c6a0e1c60",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6dd27c7337",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 38.2 hours of each other. Transactions across the cluster occurred within a 38.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_2b917ee737",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.749612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 39.9,
+    "txn_spread_hours": 41.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_1da3b320b7",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_062407b54f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_3c4f0f4963",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b56df18547",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_872a1e958e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_a2dbd4f27f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared delivery address. All accounts in this cluster signed up within 39.9 hours of each other. Transactions across the cluster occurred within a 41.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_d379543c1a",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.750612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 4.2,
+    "txn_spread_hours": 6.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_60a9f16147",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6b8d3320b7",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_8b3bd96e5d",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3958575244",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_42cc49edcf",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_fc9176a32c",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_bd2590737a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device. All accounts in this cluster signed up within 4.2 hours of each other. Transactions across the cluster occurred within a 6.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_157f78f4bc",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.750612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address",
+      "device"
+    ],
+    "signup_spread_hours": 29.6,
+    "txn_spread_hours": 31.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_262d1aff9c",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_f483bd90a3",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_28f8b5d72d",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_e35b866f20",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address, device. All accounts in this cluster signed up within 29.6 hours of each other. Transactions across the cluster occurred within a 31.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_dbdfe318ce",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.751612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 25.8,
+    "txn_spread_hours": 27.9,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_6e821e4070",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9a4f937e6f",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6158962cf9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9c9fe28831",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2bb8c78823",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d6b8fe10d4",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device, payment card. All accounts in this cluster signed up within 25.8 hours of each other. Transactions across the cluster occurred within a 27.9-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_d6b8fe10d4",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.751612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 25.8,
+    "txn_spread_hours": 27.9,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_6e821e4070",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6158962cf9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dbdfe318ce",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9c9fe28831",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2bb8c78823",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9a4f937e6f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 25.8 hours of each other. Transactions across the cluster occurred within a 27.9-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_3577b5f09a",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.752612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5684,
+    "cluster_size": 7,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 3.2,
+    "txn_spread_hours": 4.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_0e1033b9ea",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4e01f870e6",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d8a999be83",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_446cce8f11",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 3.2 hours of each other. Transactions across the cluster occurred within a 4.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_ef6e0fd672",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.753612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 6,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 30.1,
+    "txn_spread_hours": 31.5,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_bf5d9d280c",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_c1c7343700",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_b38b377dad",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 6 total) via shared payment card. All accounts in this cluster signed up within 30.1 hours of each other. Transactions across the cluster occurred within a 31.5-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_bf4c0426e7",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.753612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.6063,
+    "cluster_size": 1,
+    "n_connected_accounts": 0,
+    "shared_attribute_types": [],
+    "signup_spread_hours": 0.0,
+    "txn_spread_hours": 408.0,
+    "connected_accounts_evidence": [],
+    "explanation": "No shared attributes found with other accounts.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_87e1601c85",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.754612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 38.2,
+    "txn_spread_hours": 38.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_f15636fbee",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_183ed1ce47",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_63b9500316",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_df42c89a6b",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_7c6a0e1c60",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6dd27c7337",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 38.2 hours of each other. Transactions across the cluster occurred within a 38.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_ff67ba4fdb",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.754612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 4,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.9,
+    "txn_spread_hours": 11.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_d2861affd6",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_e0ebdf1129",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_1de966d30b",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 4 total) via shared payment card. All accounts in this cluster signed up within 9.9 hours of each other. Transactions across the cluster occurred within a 11.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_31439620cb",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.755612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 6,
+    "n_connected_accounts": 5,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 60.4,
+    "txn_spread_hours": 976.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7f2fee431d",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_064bf235e9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dce57026c7",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2b675c202f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_1029ca0e61",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 5 other account(s) (cluster of 6 total) via shared payment card. All accounts in this cluster signed up within 60.4 hours of each other. Transactions were spread over 976.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_7f2fee431d",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.755612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 6,
+    "n_connected_accounts": 5,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 60.4,
+    "txn_spread_hours": 976.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_064bf235e9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_31439620cb",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dce57026c7",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2b675c202f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_1029ca0e61",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 5 other account(s) (cluster of 6 total) via shared payment card. All accounts in this cluster signed up within 60.4 hours of each other. Transactions were spread over 976.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_6e821e4070",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.756612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 25.8,
+    "txn_spread_hours": 27.9,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_dbdfe318ce",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9a4f937e6f",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6158962cf9",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9c9fe28831",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2bb8c78823",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d6b8fe10d4",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device, payment card. All accounts in this cluster signed up within 25.8 hours of each other. Transactions across the cluster occurred within a 27.9-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_19bcc310ed",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.757612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 6,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "delivery address",
+      "device"
+    ],
+    "signup_spread_hours": 30.1,
+    "txn_spread_hours": 31.5,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_bf5d9d280c",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b38b377dad",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ee8c7265f5",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 6 total) via shared delivery address, device. All accounts in this cluster signed up within 30.1 hours of each other. Transactions across the cluster occurred within a 31.5-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_df961f00b1",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.757612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 32.2,
+    "txn_spread_hours": 32.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7e0c5a6722",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4b4b4d9729",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a50a8162fd",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7ee79c8288",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a54436bf6a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_680ac7192e",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_65726b76a2",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device, payment card. All accounts in this cluster signed up within 32.2 hours of each other. Transactions across the cluster occurred within a 32.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_0e1033b9ea",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.758612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5684,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "delivery address",
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 3.2,
+    "txn_spread_hours": 4.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_4e01f870e6",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d8a999be83",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_f159246608",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_1ca8ddec3a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3577b5f09a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_446cce8f11",
+        "shared_attributes": [
+          "payment card",
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared delivery address, device, payment card. All accounts in this cluster signed up within 3.2 hours of each other. Transactions across the cluster occurred within a 4.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_3958575244",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.758612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 4.2,
+    "txn_spread_hours": 6.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_60a9f16147",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6b8d3320b7",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_8b3bd96e5d",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_42cc49edcf",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_fc9176a32c",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_bd2590737a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d379543c1a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device. All accounts in this cluster signed up within 4.2 hours of each other. Transactions across the cluster occurred within a 6.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_6158962cf9",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.759612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 25.8,
+    "txn_spread_hours": 27.9,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_6e821e4070",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dbdfe318ce",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9c9fe28831",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_2bb8c78823",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d6b8fe10d4",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9a4f937e6f",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 25.8 hours of each other. Transactions across the cluster occurred within a 27.9-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_062407b54f",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.759612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 39.9,
+    "txn_spread_hours": 41.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_1da3b320b7",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_3c4f0f4963",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_b56df18547",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_872a1e958e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_2b917ee737",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_a2dbd4f27f",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared delivery address. All accounts in this cluster signed up within 39.9 hours of each other. Transactions across the cluster occurred within a 41.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_33a251e67d",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.760612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 4,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 10.1,
+    "txn_spread_hours": 12.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_89aa3a0b08",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_ad3d2cc50e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_f374d5903d",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 4 total) via shared delivery address. All accounts in this cluster signed up within 10.1 hours of each other. Transactions across the cluster occurred within a 12.1-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_60a9f16147",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.761612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 4.2,
+    "txn_spread_hours": 6.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_6b8d3320b7",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8b3bd96e5d",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3958575244",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_42cc49edcf",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_fc9176a32c",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_bd2590737a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_d379543c1a",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared device, payment card. All accounts in this cluster signed up within 4.2 hours of each other. Transactions across the cluster occurred within a 6.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_fea8e3befc",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.761612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 33.7,
+    "txn_spread_hours": 1276.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_f8dcef9182",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_293202da41",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_e05cb67297",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_fb902cc5b8",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address. All accounts in this cluster signed up within 33.7 hours of each other. Transactions were spread over 1276.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_65726b76a2",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.762612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 8,
+    "n_connected_accounts": 7,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 32.2,
+    "txn_spread_hours": 32.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7e0c5a6722",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_df961f00b1",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a50a8162fd",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7ee79c8288",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a54436bf6a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_680ac7192e",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4b4b4d9729",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 7 other account(s) (cluster of 8 total) via shared payment card. All accounts in this cluster signed up within 32.2 hours of each other. Transactions across the cluster occurred within a 32.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_d8a999be83",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.762612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5684,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 3.2,
+    "txn_spread_hours": 4.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_0e1033b9ea",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_4e01f870e6",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_f159246608",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_1ca8ddec3a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3577b5f09a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_446cce8f11",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device, payment card. All accounts in this cluster signed up within 3.2 hours of each other. Transactions across the cluster occurred within a 4.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_e35b866f20",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.763612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address",
+      "device"
+    ],
+    "signup_spread_hours": 29.6,
+    "txn_spread_hours": 31.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_262d1aff9c",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_157f78f4bc",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_f483bd90a3",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_28f8b5d72d",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address, device. All accounts in this cluster signed up within 29.6 hours of each other. Transactions across the cluster occurred within a 31.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_15f918a4a1",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.764612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 49.9,
+    "txn_spread_hours": 50.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_e6eacc3c02",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_791e2f516f",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_6bf9ca0c65",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3613c20c43",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared device, payment card. All accounts in this cluster signed up within 49.9 hours of each other. Transactions across the cluster occurred within a 50.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_d2861affd6",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.764612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 4,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.9,
+    "txn_spread_hours": 11.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_ff67ba4fdb",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_e0ebdf1129",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_1de966d30b",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 4 total) via shared payment card. All accounts in this cluster signed up within 9.9 hours of each other. Transactions across the cluster occurred within a 11.7-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_4e01f870e6",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.765612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5684,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 3.2,
+    "txn_spread_hours": 4.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_0e1033b9ea",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d8a999be83",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_f159246608",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_1ca8ddec3a",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_3577b5f09a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_446cce8f11",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device, payment card. All accounts in this cluster signed up within 3.2 hours of each other. Transactions across the cluster occurred within a 4.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_7502947d21",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.765612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.8,
+    "txn_spread_hours": 836.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_d4dd9db472",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8840731e73",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a5a52b0d39",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9607c9e166",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_35a8c8d29a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_72e93b7d7a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 9.8 hours of each other. Transactions were spread over 836.1 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_2b675c202f",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.766612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 6,
+    "n_connected_accounts": 5,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 60.4,
+    "txn_spread_hours": 976.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_064bf235e9",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7f2fee431d",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_31439620cb",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dce57026c7",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_1029ca0e61",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 5 other account(s) (cluster of 6 total) via shared device, payment card. All accounts in this cluster signed up within 60.4 hours of each other. Transactions were spread over 976.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_a5a52b0d39",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.766612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.8,
+    "txn_spread_hours": 836.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7502947d21",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d4dd9db472",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8840731e73",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9607c9e166",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_35a8c8d29a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_72e93b7d7a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 9.8 hours of each other. Transactions were spread over 836.1 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_63b9500316",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.767612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "device"
+    ],
+    "signup_spread_hours": 38.2,
+    "txn_spread_hours": 38.3,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_f15636fbee",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_183ed1ce47",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_87e1601c85",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_df42c89a6b",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_7c6a0e1c60",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_6dd27c7337",
+        "shared_attributes": [
+          "device"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared device. All accounts in this cluster signed up within 38.2 hours of each other. Transactions across the cluster occurred within a 38.3-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_cf83f16759",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.768612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 2,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 11.3,
+    "txn_spread_hours": 13.6,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_334815a2c6",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_face58324d",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 2 other account(s) (cluster of 5 total) via shared payment card. All accounts in this cluster signed up within 11.3 hours of each other. Transactions across the cluster occurred within a 13.6-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_8840731e73",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.768612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.8,
+    "txn_spread_hours": 836.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7502947d21",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d4dd9db472",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a5a52b0d39",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9607c9e166",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_35a8c8d29a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_72e93b7d7a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 9.8 hours of each other. Transactions were spread over 836.1 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_3c56f389bc",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.769621+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.5168,
+    "cluster_size": 1,
+    "n_connected_accounts": 0,
+    "shared_attribute_types": [],
+    "signup_spread_hours": 0.0,
+    "txn_spread_hours": 336.0,
+    "connected_accounts_evidence": [],
+    "explanation": "No shared attributes found with other accounts.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_ad3d2cc50e",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.769621+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 4,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 10.1,
+    "txn_spread_hours": 12.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_89aa3a0b08",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_33a251e67d",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_f374d5903d",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 4 total) via shared delivery address. All accounts in this cluster signed up within 10.1 hours of each other. Transactions across the cluster occurred within a 12.1-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_28f8b5d72d",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.770612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9997,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address",
+      "device"
+    ],
+    "signup_spread_hours": 29.6,
+    "txn_spread_hours": 31.2,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_262d1aff9c",
+        "shared_attributes": [
+          "device"
+        ]
+      },
+      {
+        "connected_account": "acct_157f78f4bc",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_f483bd90a3",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_e35b866f20",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address, device. All accounts in this cluster signed up within 29.6 hours of each other. Transactions across the cluster occurred within a 31.2-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_89aa3a0b08",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.771613+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9998,
+    "cluster_size": 4,
+    "n_connected_accounts": 3,
+    "shared_attribute_types": [
+      "delivery address"
+    ],
+    "signup_spread_hours": 10.1,
+    "txn_spread_hours": 12.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_ad3d2cc50e",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_33a251e67d",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_f374d5903d",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 3 other account(s) (cluster of 4 total) via shared delivery address. All accounts in this cluster signed up within 10.1 hours of each other. Transactions across the cluster occurred within a 12.1-hour window, suggesting coordinated activity rather than independent, organic usage.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_293202da41",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.771613+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 5,
+    "n_connected_accounts": 4,
+    "shared_attribute_types": [
+      "delivery address",
+      "device"
+    ],
+    "signup_spread_hours": 33.7,
+    "txn_spread_hours": 1276.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_e05cb67297",
+        "shared_attributes": [
+          "device",
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_f8dcef9182",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_fb902cc5b8",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      },
+      {
+        "connected_account": "acct_fea8e3befc",
+        "shared_attributes": [
+          "delivery address"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 4 other account(s) (cluster of 5 total) via shared delivery address, device. All accounts in this cluster signed up within 33.7 hours of each other. Transactions were spread over 1276.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_064bf235e9",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.772612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 6,
+    "n_connected_accounts": 5,
+    "shared_attribute_types": [
+      "device",
+      "payment card"
+    ],
+    "signup_spread_hours": 60.4,
+    "txn_spread_hours": 976.7,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_2b675c202f",
+        "shared_attributes": [
+          "device",
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_7f2fee431d",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_31439620cb",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_dce57026c7",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_1029ca0e61",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 5 other account(s) (cluster of 6 total) via shared device, payment card. All accounts in this cluster signed up within 60.4 hours of each other. Transactions were spread over 976.7 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  },
+  {
+    "account_id": "acct_72e93b7d7a",
+    "model_version": "abuse-ring-sentinel-v1",
+    "decision_timestamp": "2026-08-29T10:22:01.772612+00:00",
+    "action_taken": "FLAGGED_FOR_REVIEW",
+    "ring_probability": 0.9994,
+    "cluster_size": 7,
+    "n_connected_accounts": 6,
+    "shared_attribute_types": [
+      "payment card"
+    ],
+    "signup_spread_hours": 9.8,
+    "txn_spread_hours": 836.1,
+    "connected_accounts_evidence": [
+      {
+        "connected_account": "acct_7502947d21",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_d4dd9db472",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_8840731e73",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_a5a52b0d39",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_9607c9e166",
+        "shared_attributes": [
+          "payment card"
+        ]
+      },
+      {
+        "connected_account": "acct_35a8c8d29a",
+        "shared_attributes": [
+          "payment card"
+        ]
+      }
+    ],
+    "explanation": "This account is connected to 6 other account(s) (cluster of 7 total) via shared payment card. All accounts in this cluster signed up within 9.8 hours of each other. Transactions were spread over 836.1 hours - less immediately suspicious on timing alone, but the shared-attribute structure and cluster size still warrant review.",
+    "note": "This is a recommendation for human review only. No automated account action (blocking, freezing, rejection) has been taken."
+  }
+]
