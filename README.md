@@ -123,7 +123,7 @@ false-positive investigation overhead.
 6. **Integrate into Razorpay's existing merchant dashboard** — surface flags where
    analysts already work; expose as an API/webhook.
 
-## Why this benefits Razorpay
+## Why this benefits Payment gateway providers
 
 - **Direct merchant savings**: promo/referral/return-abuse rings directly drain
   merchant margins; catching them keeps more money with legitimate merchants.
