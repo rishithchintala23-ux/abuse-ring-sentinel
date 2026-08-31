@@ -1,32 +1,34 @@
 {
-  "precision": 0.96,
-  "recall": 0.96,
-  "f1": 0.96,
-  "roc_auc": 0.9937,
+  "precision": 0.9897,
+  "recall": 0.9796,
+  "f1": 0.9846,
+  "roc_auc": 0.9982,
   "confusion_matrix": {
-    "tn": 972,
-    "fp": 4,
-    "fn": 4,
+    "tn": 971,
+    "fp": 1,
+    "fn": 2,
     "tp": 96
   },
   "cost_estimate": {
-    "fp_cost": 600,
-    "fn_cost": 32000,
-    "total_cost": 32600,
+    "fp_cost": 150,
+    "fn_cost": 16000,
+    "total_cost": 16150,
     "assumptions": {
       "cost_per_fp_investigation": 150,
       "avg_loss_per_missed_ring_member": 8000
     }
   },
   "feature_importance": {
-    "degree": 0.010499999858438969,
-    "component_size": 0.025100000202655792,
+    "degree": 0.006399999838322401,
+    "component_size": 0.00039999998989515007,
     "edge_density": 0.0,
     "n_shared_attr_types": 0.0,
-    "signup_spread_hours": 0.9438999891281128,
-    "txn_spread_hours": 0.020500000566244125
+    "n_high_conf_attr_types": 0.9764000177383423,
+    "ip_only_component": 0.0,
+    "signup_spread_hours": 0.0003000000142492354,
+    "txn_spread_hours": 0.016499999910593033
   },
-  "n_train": 2504,
-  "n_test": 1076,
-  "n_test_ring_members": 100
+  "n_train": 2474,
+  "n_test": 1070,
+  "n_test_ring_members": 98
 }

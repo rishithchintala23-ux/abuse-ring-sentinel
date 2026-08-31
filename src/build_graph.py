@@ -2,24 +2,24 @@
 Builds an account graph where edges connect accounts sharing an attribute
 (device, card, address, or IP-via-transactions), then extracts per-account
 and per-connected-component features that feed the classifier.
- 
+
 Key idea: a ring isn't just "shares stuff" - innocent clusters share stuff too.
 The separating signal is COMBINING structure (component size, edge density,
 how many distinct attribute types are shared) WITH timing (do signups/txns
 cluster tightly, or spread out).
 """
- 
+
 import pandas as pd
 import networkx as nx
 from datetime import datetime
 import numpy as np
- 
- 
+
+
 def build_graph(accounts_df, txns_df):
     G = nx.Graph()
     for _, row in accounts_df.iterrows():
         G.add_node(row["account_id"])
- 
+
     # Connect accounts sharing an attribute
     for attr in ["device_id", "card_fingerprint", "address_id"]:
         groups = accounts_df.dropna(subset=[attr]).groupby(attr)["account_id"].apply(list)
@@ -31,7 +31,7 @@ def build_graph(accounts_df, txns_df):
                             G[accts[i]][accts[j]]["shared_attrs"].append(attr)
                         else:
                             G.add_edge(accts[i], accts[j], shared_attrs=[attr])
- 
+
     # Connect accounts sharing an IP address (via transactions - IP is on
     # the account record here for simplicity, but modeled as a distinct pass
     # to mirror how IP-sharing would typically be joined from login/txn logs)
@@ -44,42 +44,51 @@ def build_graph(accounts_df, txns_df):
                         G[accts[i]][accts[j]]["shared_attrs"].append("ip_address")
                     else:
                         G.add_edge(accts[i], accts[j], shared_attrs=["ip_address"])
- 
+
     return G
- 
- 
+
+
 def extract_features(G, accounts_df, txns_df):
     accounts_df = accounts_df.copy()
     accounts_df["signup_ts"] = pd.to_datetime(accounts_df["signup_date"])
- 
+
     # Component-level stats, computed once per component then broadcast to members
     components = list(nx.connected_components(G))
     comp_id_of = {}
     comp_stats = {}
- 
+
     for idx, comp in enumerate(components):
         for node in comp:
             comp_id_of[node] = idx
- 
+
         comp_size = len(comp)
         subG = G.subgraph(comp)
         n_edges = subG.number_of_edges()
         max_possible_edges = comp_size * (comp_size - 1) / 2
         density = n_edges / max_possible_edges if max_possible_edges > 0 else 0
- 
+
         # distinct attribute types shared across the component
         attr_types = set()
         for _, _, data in subG.edges(data=True):
             attr_types.update(data["shared_attrs"])
         n_attr_types = len(attr_types)
- 
+
+        # High-confidence attribute types exclude IP - IP alone is common,
+        # weak evidence in the real world (mobile carrier NAT, public WiFi),
+        # while device/card/address overlap is much stronger evidence of
+        # real coordination. This lets the model learn that distinction
+        # instead of treating every shared attribute as equally suspicious.
+        high_conf_types = attr_types - {"ip_address"}
+        n_high_conf_attr_types = len(high_conf_types)
+        ip_only_component = n_attr_types > 0 and n_high_conf_attr_types == 0
+
         # timing tightness: std dev of signup times within the component (hours)
         comp_signups = accounts_df[accounts_df["account_id"].isin(comp)]["signup_ts"]
         if len(comp_signups) > 1:
             signup_spread_hours = (comp_signups.max() - comp_signups.min()).total_seconds() / 3600
         else:
             signup_spread_hours = 0
- 
+
         # transaction timing tightness within the component
         comp_txns = txns_df[txns_df["account_id"].isin(comp)]
         if len(comp_txns) > 1:
@@ -89,22 +98,24 @@ def extract_features(G, accounts_df, txns_df):
         else:
             txn_spread_hours = 0
             avg_txn_amount = comp_txns["amount"].mean() if len(comp_txns) else 0
- 
+
         comp_stats[idx] = {
             "component_size": comp_size,
             "edge_density": density,
             "n_shared_attr_types": n_attr_types,
+            "n_high_conf_attr_types": n_high_conf_attr_types,
+            "ip_only_component": int(ip_only_component),
             "signup_spread_hours": signup_spread_hours,
             "txn_spread_hours": txn_spread_hours,
             "avg_txn_amount": avg_txn_amount,
         }
- 
+
     # Per-account features
     rows = []
     for _, acct in accounts_df.iterrows():
         acct_id = acct["account_id"]
         comp_idx = comp_id_of.get(acct_id)
- 
+
         if comp_idx is None:
             # isolated node - no shared attributes with anyone
             feat = {
@@ -113,6 +124,8 @@ def extract_features(G, accounts_df, txns_df):
                 "component_size": 1,
                 "edge_density": 0,
                 "n_shared_attr_types": 0,
+                "n_high_conf_attr_types": 0,
+                "ip_only_component": 0,
                 "signup_spread_hours": 0,
                 "txn_spread_hours": 0,
                 "avg_txn_amount": txns_df[txns_df["account_id"] == acct_id]["amount"].mean()
@@ -125,25 +138,25 @@ def extract_features(G, accounts_df, txns_df):
                 **comp_stats[comp_idx],
             }
         rows.append(feat)
- 
+
     features_df = pd.DataFrame(rows)
     return features_df
- 
- 
+
+
 def main():
     accounts_df = pd.read_csv("data/accounts.csv")
     txns_df = pd.read_csv("data/transactions.csv")
- 
+
     print("Building graph...")
     G = build_graph(accounts_df, txns_df)
     print(f"Graph: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
- 
+
     n_components = nx.number_connected_components(G)
     print(f"Connected components: {n_components}")
- 
+
     print("Extracting features...")
     features_df = extract_features(G, accounts_df, txns_df)
- 
+
     # merge in ground truth for later training/eval
     merged = features_df.merge(
         accounts_df[["account_id", "ring_id", "is_ring_member", "is_hard_negative", "is_evasive_ring"]],
@@ -151,15 +164,14 @@ def main():
     )
     merged.to_csv("data/features.csv", index=False)
     print(f"Saved {len(merged)} rows to data/features.csv")
- 
+
     # quick sanity check: do ring members have higher component_size/density on average?
     print("\nSanity check (mean feature value by class):")
     print(merged.groupby("is_ring_member")[
         ["component_size", "edge_density", "n_shared_attr_types",
          "signup_spread_hours", "txn_spread_hours"]
     ].mean())
- 
- 
+
+
 if __name__ == "__main__":
     main()
- 
