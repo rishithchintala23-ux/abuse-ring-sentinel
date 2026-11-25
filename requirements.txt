@@ -6,3 +6,74 @@ xgboost>=2.0.0
 matplotlib>=3.7.0
 streamlit>=1.28.0
 faker>=19.0.0
+
+
+ your terminal:
+
+
+bash
+git clone https://github.com/archanareddyse/OLTRS.git
+cd OLTRS
+Replace the empty Dockerfile with:
+
+
+dockerfile
+
+# Build stage
+FROM maven:3.9.9-eclipse-temurin-8 AS build
+
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+
+RUN mvn clean package -DskipTests
+
+# Runtime stage
+FROM tomcat:9.0-jdk8-temurin
+
+RUN rm -rf /usr/local/tomcat/webapps/*
+
+COPY --from=build /app/target/ticket-reservation.war \
+    /usr/local/tomcat/webapps/ROOT.war
+
+EXPOSE 8080
+
+CMD ["catalina.sh", "run"]
+2. Build and run locally
+
+bash
+docker build -t oltrs:latest .
+Start the container:
+
+
+bash
+docker run -d \
+  --name oltrs-container \
+  -p 8080:8080 \
+  oltrs:latest
+Open your browser:
+
+Local application URL
+http://localhost:8080 
+
+3. Push the image to Docker Hub
+Replace YOUR_DOCKERHUB_USERNAME with your Docker Hub username.
+
+
+bash
+docker login
+Tag the image:
+
+
+bash
+docker tag oltrs:latest YOUR_DOCKERHUB_USERNAME/oltrs:latest
+Push:
+
+
+bash
+docker push YOUR_DOCKERHUB_USERNAME/oltrs:latest
+4. Verify the Docker image
+
+bash
+docker images
+docker ps
